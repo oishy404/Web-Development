@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Exercise 4</title>
+</head>
+
+<body>
+
+<h2>Customer Information Form</h2>
+
+<form>
+
+<fieldset>
+
+<legend>Customer Info</legend>
+
+<p>
+<label>Name:</label>
+<input type="text" size="50" required>
+</p>
+
+<p>
+<label>Telephone:</label>
+<input type="tel"
+pattern="[0-9]{10}"
+placeholder="0412345678"
+required>
+</p>
+
+<p>
+<label>Email Address:</label>
+<input type="email" size="50" required>
+</p>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Books</legend>
+
+<label>Book:</label>
+
+<select>
+
+<option>HTML5 Canvas by Steve Fulton & Jeff Fulton</option>
+<option>Learning HTML5</option>
+<option>Beginning HTML5</option>
+
+</select>
+
+&nbsp;&nbsp;
+
+<label>Quantity (Maximum 5):</label>
+
+<input type="number" min="1" max="5">
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+
+</html>

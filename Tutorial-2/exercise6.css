@@ -1,0 +1,61 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Left Column */
+
+.leftcolumn{
+
+    position:absolute;
+
+    left:20px;
+
+    top:20px;
+
+    width:40%;
+
+    padding:15px;
+
+    background:#E8F4FC;
+
+    border:1px solid #999;
+
+}
+
+/* Right Column */
+
+.rightcolumn{
+
+    position:absolute;
+
+    right:20px;
+
+    top:20px;
+
+    width:40%;
+
+    padding:15px;
+
+    background:#F9F9F9;
+
+    border:1px solid #999;
+
+}
+
+h2{
+
+    color:#213643;
+
+    margin-bottom:10px;
+
+}
+
+p{
+
+    margin-bottom:12px;
+
+    line-height:1.6;
+
+}
